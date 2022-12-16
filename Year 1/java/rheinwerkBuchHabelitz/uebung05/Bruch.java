@@ -1,8 +1,25 @@
 package uebung05;
 
+import uebung3.Zahlentest;
+
 public class Bruch {
     int zaehler;
     int nenner;
+    static int anzahlBrueche = 0;
+
+    Bruch() {
+        anzahlBrueche++;
+    }
+
+    Bruch(int z, int n) {
+        zaehler = z;
+        nenner = n;
+        anzahlBrueche++;
+    }
+
+    static int getAnzahlBrueche() {
+        return anzahlBrueche;
+    }
 
     void ausgeben() {
         System.out.println(zaehler + "/" + nenner);
@@ -30,7 +47,8 @@ public class Bruch {
         zaehler *= a;
         nenner *= a;
     }
-    double dezimalwert(){
-        return (double) zaehler/nenner;
+
+    double dezimalwert() {
+        return (double) zaehler / nenner;
     }
 }
