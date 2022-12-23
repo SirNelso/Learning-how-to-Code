@@ -17,6 +17,7 @@ public class EmailMain {
         String altMail = scan.nextLine();
         mail.setAlternateEmail(altMail);
         System.out.println("Your alternate Email is: " + mail.getAlternateEmail());
+        scan.close();
 
       
         

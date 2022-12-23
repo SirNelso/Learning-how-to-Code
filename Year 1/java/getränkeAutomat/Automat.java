@@ -1,6 +1,6 @@
 package getränkeAutomat;
 
-import javax.print.attribute.standard.JobHoldUntil;
+
 import javax.swing.JOptionPane;
 
 public class Automat {

@@ -1,6 +1,6 @@
 package uebung05;
 
-import uebung03.Zahlentest;
+
 
 public class Bruch {
     int zaehler;

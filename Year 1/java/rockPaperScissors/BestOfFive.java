@@ -78,6 +78,7 @@ public class BestOfFive {
             System.out.println(ssp[pcWahl] + " schlägt " + ssp[spielerWahl]);
 
         }
+        input.close();
     }
 
 }

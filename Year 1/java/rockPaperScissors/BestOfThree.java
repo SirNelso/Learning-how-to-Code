@@ -76,5 +76,6 @@ public class BestOfThree {
             System.out.println("------------------------------------------------");
         }
 
+        input.close();
     }
 }

@@ -10,7 +10,7 @@ public class EmailApp {
     private String department;
     private String alternateEmail;
     private String company = "feuercon.com";
-    private int mailboxCapacity;
+    // private int mailboxCapacity;
     private int defaultPasswordLength = 10;
 
     public EmailApp(String firstName, String lastName) {
@@ -35,6 +35,7 @@ public class EmailApp {
                 "Department Codes:\n1 for Sales\n2 for Marketing\n3 for Development\n4 for Accounting\n0 for none\nEnter your Department");
         Scanner input = new Scanner(System.in);
         int depChoice = input.nextInt();
+        input.close();
 
         switch (depChoice) {
             case 1:
@@ -48,7 +49,6 @@ public class EmailApp {
             default:
                 return "";
         }
-
     }
 
     private String randomPassword(int length) {

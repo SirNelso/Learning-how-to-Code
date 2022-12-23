@@ -3,12 +3,12 @@ package rockPaperScissors;
 import java.util.Scanner;
 
 public class Main {
-
+    
     public static void main(String[] args) {
-
+        
         int spielmodus;
-
         Scanner input = new Scanner(System.in);
+
 
         for (int i = 1; i > 0; i++) {
             System.out.println("Willkommen beim Schere-Stein-Papier-Simulator");
@@ -35,7 +35,7 @@ public class Main {
             }
             System.out.println();
         }
-        input.close();
+        
     }
-
+    
 }

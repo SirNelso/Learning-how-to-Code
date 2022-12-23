@@ -2,12 +2,13 @@ package exercise7;
 
 import java.util.Scanner;
 
-public class SalesCalculator{
+public class SalesCalculator {
     static Scanner input = new Scanner(System.in);
     static double produkte[] = { 2.98, 4.50, 9.98, 4.50, 6.87 };
 
     public static void main(String[] args) {
-        // Auswahl der Programmfunktion; endlos for Schleife für beliebig häufiges wiederholen
+        // Auswahl der Programmfunktion; endlos for Schleife für beliebig häufiges
+        // wiederholen
         for (int x = 1; x > 0; x++) {
             System.out.println("Hauptmenü");
             System.out.println("1) Produktliste\n2) Umsatzberechnen\n3) Programm beenden");
@@ -65,7 +66,7 @@ public class SalesCalculator{
     }
 
     // Funktion zum berechnen des Umsatzes + Verkaufte Menge pro Produkt
-    //Kontrolle per if Statment ob Produktnummer gültig ist
+    // Kontrolle per if Statment ob Produktnummer gültig ist
     public static void Umsatzberechnen() {
         int beenden = 1;
         double umsatz = 0;
@@ -113,4 +114,3 @@ public class SalesCalculator{
     }
 
 }
-

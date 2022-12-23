@@ -11,5 +11,6 @@ public class AutomatenEingabe {
         getränkeWahl = Integer.parseInt(eingabe);
 
         Automat auto = new Automat(getränkeWahl);
+        
     }
 }

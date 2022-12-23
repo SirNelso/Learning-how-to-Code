@@ -78,6 +78,8 @@ public class endless {
             System.out.println("------------------------------------------------");
             System.out.println("1) Neues Spiel\n2) Spiel beenden");
             start = scan.nextInt();
+            scan.close();
         }
+        scan.close();
     }
 }

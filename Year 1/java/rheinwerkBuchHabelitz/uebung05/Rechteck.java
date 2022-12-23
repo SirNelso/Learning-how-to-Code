@@ -1,8 +1,6 @@
 package uebung05;
 
-import java.text.BreakIterator;
 
-import org.w3c.dom.ls.LSException;
 
 public class Rechteck {
     double laenge;
